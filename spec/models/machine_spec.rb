@@ -14,7 +14,6 @@ RSpec.describe Machine, type: :model do
     snack2 = dons.snacks.create(name: "Reese's", price: 2)
     snack3 = dons.snacks.create(name: "Chips", price: 3)
 
-
     expect(dons.average_price).to eq(2)
   end
 end

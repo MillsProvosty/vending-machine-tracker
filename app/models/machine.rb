@@ -14,7 +14,6 @@ class Machine < ApplicationRecord
     snacks.each do |snack|
       total_snacks += 1
     end
-
     total_price/total_snacks
   end
 
